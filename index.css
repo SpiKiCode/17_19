@@ -1,0 +1,118 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-image: url("background1.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+#content_container {
+    width: 30%;
+    height: 70%;
+}
+
+#form_container {
+    width: 60%;
+    max-width: 500px;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 50px -20px #ffffff;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#form_header_container {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: 0.5px solid transparent;
+    border-image: -webkit-linear-gradient(25deg, #ffffff, #0084ff ,#ff00f2 , #FF006E , #ffffff) 20;
+    background: transparent;
+}
+
+#form_header {
+    display: inline-block;
+    font-size: 15px;
+    font-family: Bowlby One SC;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: -webkit-linear-gradient(25deg, #ffffff, #0084ff ,#ff00f2 , #FF006E , #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#form_content_container {
+    width: 100%;
+    height: 90%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#form_content_inner_container {
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #000000;
+    font-size: 12px;
+    border: 1px solid transparent;
+    border-image: -webkit-linear-gradient(25deg, #ffffff, #0084ff ,#ff00f2 , #FF006E , #ffffff) 1;
+}
+
+#button_container {
+    margin-top: 28px;
+    width: 100%;
+    height: 15%;
+    background-image: linear-gradient(80deg, #ffffff, #0084ff 50%, #FF006E 50%, #ffffff);
+    color: #fff;
+    float: left;
+}
+
+#button_container button {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: transparent;
+    color: inherit;
+    font-family: Montserrat;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
